@@ -1,6 +1,7 @@
 #Importer les librairies
 import streamlit as st
 import requests
+import toml
 
 def get_weather_data(lat, lon, weather_api_key) :
     base_url = "https://api.openweathermap.org/data/2.5/weather?"
