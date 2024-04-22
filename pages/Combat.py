@@ -75,7 +75,7 @@ def main():
         """,
         unsafe_allow_html=True
     )
-    weather_api_key = "8d91e66b8be0b88976529ae0b531c6b0"
+    weather_api_key = st.secrets["weather_api_key"]
 
     ville_1 = st.query_params["city1"]
     ville_2 = st.query_params["city2"]    
