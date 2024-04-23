@@ -123,7 +123,7 @@ def main():
 
     c1,c2,c3 = st.columns(3)
     with c1 :
-        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Retour au menu</a> ', unsafe_allow_html=True)
+         st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Retour au menu</a> ', unsafe_allow_html=True)
 
     with c2 :
         st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Accueil?" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Comparer autres villes</a> ', unsafe_allow_html=True)
