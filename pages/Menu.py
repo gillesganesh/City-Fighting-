@@ -95,22 +95,22 @@ def main():
         </style>
     """, unsafe_allow_html=True)
 
-#    c1,c2,c3 = st.columns(3)
-#    with c1 :
-#        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Stats?city1={ville_1}&city2={ville_2}" class="retour-button" style="color: inherit; text-decoration: none;" target="_self">Données générales</a> ', unsafe_allow_html=True)    
-#
-#    col1, col2 = st.columns(2)
-#    with col1 :
-#        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Meteo?city1={ville_1}&city2={ville_2}" class="custom-button meteo-button" style="color: inherit; text-decoration: none;" target="_self">Meteo</a> ', unsafe_allow_html=True)
-#        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Logements?city1={ville_1}&city2={ville_2}" class="custom-button logement-button" style="color: inherit; text-decoration: none;" target="_self">Logement</a>', unsafe_allow_html=True)
-#
-#    with col2  :
-#        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Emploi?city1={ville_1}&city2={ville_2}" class="custom-button emploi-button" style="color: inherit; text-decoration: none;" target="_self">Emploi</a>', unsafe_allow_html=True)
-#        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Combat?city1={ville_1}&city2={ville_2}" class="custom-button combat-button" style="color: inherit; text-decoration: none;" target="_self">Combat</a>', unsafe_allow_html=True)
-#
-#    c1,c2,c3 = st.columns(3)
-#    with c1 :
-#        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Accueil" class="retour-button" style="color: inherit; text-decoration: none;" target="_self">Comparer autres villes</a> ', unsafe_allow_html=True)    
+    c1,c2,c3 = st.columns(3)
+    with c1 :
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Stats?city1={ville_1}&city2={ville_2}" class="retour-button" style="color: inherit; text-decoration: none;" target="_self">Données générales</a> ', unsafe_allow_html=True)    
+
+    col1, col2 = st.columns(2)
+    with col1 :
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Meteo?city1={ville_1}&city2={ville_2}" class="custom-button meteo-button" style="color: inherit; text-decoration: none;" target="_self">Meteo</a> ', unsafe_allow_html=True)
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Logements?city1={ville_1}&city2={ville_2}" class="custom-button logement-button" style="color: inherit; text-decoration: none;" target="_self">Logement</a>', unsafe_allow_html=True)
+
+    with col2  :
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Emploi?city1={ville_1}&city2={ville_2}" class="custom-button emploi-button" style="color: inherit; text-decoration: none;" target="_self">Emploi</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Combat?city1={ville_1}&city2={ville_2}" class="custom-button combat-button" style="color: inherit; text-decoration: none;" target="_self">Combat</a>', unsafe_allow_html=True)
+
+    c1,c2,c3 = st.columns(3)
+    with c1 :
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Accueil" class="retour-button" style="color: inherit; text-decoration: none;" target="_self">Comparer autres villes</a> ', unsafe_allow_html=True)    
 
 if __name__ == "__main__":
     main()
