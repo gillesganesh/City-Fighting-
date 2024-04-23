@@ -94,7 +94,7 @@ def main():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown(f'<a href="http://localhost:8501/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Fight !</a>', unsafe_allow_html=True)
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Fight !</a>', unsafe_allow_html=True)
 
     with col2:
         # Bouton de téléchargement du PDF
