@@ -3,9 +3,6 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-def load_data():
-    data = pd.read_csv("Donnees\Emploi_France.csv", delimiter=";")  
-    return data
 def main():
     st.set_page_config(
         initial_sidebar_state="collapsed"
@@ -63,7 +60,7 @@ def main():
         st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Accueil?" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Comparer autres villes</a> ', unsafe_allow_html=True)
    
     st.title("Comparaison Emploi")
-    data = load_data()
+    data = pd.read_csv("Donnees\Emploi_France.csv", delimiter=";") 
 
     # Définir le style de la page
     st.markdown(
