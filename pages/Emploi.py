@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 def load_data():
-    data = pd.read_csv("Donnees\Emploi_France.csv")  
+    data = pd.read_csv("Donnees\Emploi_France.csv", sep=";")  
     return data
 def main():
     st.set_page_config(
