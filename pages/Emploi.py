@@ -4,9 +4,8 @@ import numpy as np
 import pandas as pd
 
 def load_data():
-    data = pd.read_excel("Donnees/Emploi_France.xlsx")  
+    data = pd.read_csv("Donnees\Emploi_France.csv")  
     return data
-
 def main():
     st.set_page_config(
         initial_sidebar_state="collapsed"
