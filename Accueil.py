@@ -96,7 +96,7 @@ def main():
     with col1:
         st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Fight !</a>', unsafe_allow_html=True)
     
-    with col2:
+    #with col2:
         # Bouton de téléchargement du PDF
         #if st.button("Télécharger le rapport", key="rapport_button"):
             # Trouver le fichier PDF dans le répertoire spécifié
