@@ -94,19 +94,19 @@ def main():
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Fight !!!!</a>', unsafe_allow_html=True)
-
+        st.markdown(f'<a href="https://city-fighting-brahim-ben-gilles.streamlit.app/Menu?city1={ville_1}&city2={ville_2}" class="custom-button" style="color: inherit; text-decoration: none;" target="_self">Fight !</a>', unsafe_allow_html=True)
+    
     with col2:
         # Bouton de téléchargement du PDF
-        if st.button("Télécharger le rapport", key="rapport_button"):
+        #if st.button("Télécharger le rapport", key="rapport_button"):
             # Trouver le fichier PDF dans le répertoire spécifié
-            pdf_file_path = find_pdf_file("Donnees/RAPPORT.pdf")
+         #   pdf_file_path = find_pdf_file("Donnees/RAPPORT.pdf")
 
-            if pdf_file_path:
+           # if pdf_file_path:
                 # Afficher un lien pour télécharger le PDF
-                st.markdown(f'<a href="{pdf_file_path}" download="{os.path.basename(pdf_file_path)}">Cliquez ici pour télécharger le rapport PDF</a>', unsafe_allow_html=True)
-            else:
-                st.error("Aucun fichier PDF trouvé dans le dossier spécifié.")
+               # st.markdown(f'<a href="{pdf_file_path}" download="{os.path.basename(pdf_file_path)}">Cliquez ici pour télécharger le rapport PDF</a>', unsafe_allow_html=True)
+         #   else:
+              #  st.error("Aucun fichier PDF trouvé dans le dossier spécifié.")
 
 if __name__ == "__main__":
     main()
